@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.App{
+    margin-top: 4em;
+    padding: 3em 2em;
+    background-color: #F2F1F1;
+    max-width: 600px;
+    min-width: 400px;
+}
+
+
+.input_element{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+
+.inputspace{
+    width: 240px;
+    padding: 4px 5px;
+    font-family: mada;
+    outline: none;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+}
+
+.inputspace::placeholder{
+    color: #CDBFBF;
+}
+
+.enter_button{
+    padding: 5px 20px;
+    background-color: #33B1CD;
+    border: none;
+    color: #ffff;
+    border-radius: 10px;
+    font-size: .8rem;
+    font-weight: bold;
+    font-family: mada;
+    outline: none;
+}
+
+
+.delete{
+    border: none;
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+    color: red;
+    background-color: white;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+}
